@@ -1,0 +1,26 @@
+{
+    "name": "Tab Joiner",
+    "version": "1.0",
+    "description": "Join All The Tabs",
+    "permissions":["activeTab", "storage", "declarativeContent"],
+    "background":{
+      "scripts":["background.js"],
+      "persistent":false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/tabjoiner48.png",
+        "32": "images/tabjoiner48.png",
+        "48": "images/tabjoiner48.png",
+        "128": "images/tabjoiner48.png"
+      }
+    },
+    "icons": {
+      "16": "images/tabjoiner48.png",
+      "32": "images/tabjoiner48.png",
+      "48": "images/tabjoiner48.png",
+      "128": "images/tabjoiner48.png"
+    },
+    "manifest_version": 2
+  }
